@@ -9,6 +9,11 @@ Neste projeto, o usuário jogará o famoso e antigo "Jogo da Velha". Nesta funci
 ## Versões
 
 ```
+#### v0.3 - 16/06/2024
+- Resolvido o bug que não permitia o usuário escolher a preferência entre X e O caso ele iniciasse com uma alternativa que fosse diferente entre essas duas opções;
+- Atualização na visualização das casas do Jogo da Velha. Antes, elas eram marcadas por letras (a -> i), e agora são sinalizadas por números (1 -> 9).
+
+
 #### v0.2 - 09/06/2024
 - Resolvido o bug que mantinha as jogadas anteriores ao iniciar um novo jogo. Agora, quando um jogo for finalizado, a próxima partida iniciará com as casas padrões de início de jogo;
 - Resolvido o bug que permitia que um jogador pudesse jogar em uma casa que já houvesse um X ou O. Agora, não é mais possível realizar essa jogada;
